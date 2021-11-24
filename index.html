@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <h1 style="font-family: 'Google Sans'; text-align: center;">SWork Web Sign In</h1>
+        <hr>
+        <h2 style="font-family: 'Google Sans'; text-align: center;">Employees Registered: </h2>
+        <hr>
+        <p style="font-family: 'Roboto Slab', sans-serif; text-align: center;">
+            Me
+        </p>
+        <hr>
+        <p style="font-family: 'Roboto Slab', sans-serif; text-align: center;">
+            Father
+        </p>
+        <hr>
+        <p style="font-family: 'Roboto Slab', sans-serif; text-align: center;">
+            Mother
+        </p>
+        <hr>
+        <p style="font-family: 'Roboto Slab', sans-serif; text-align: center;">
+            Pet       </p>
+        <hr>
+        <div id="camera"></div>
+        <br>
+        <div id="result"></div>
+        <div>
+            <button class="btn btn-info" onclick="take_snapshot()">Capture Image</button>
+            <button class="btn btn-success" onclick="check()">Identify Image</button>
+        </div>
+        <br><br>
+        <p style="font-size: 22px;">Person: <span id="result_object_name"></span></p>
+        <p style="font-size: 22px;">Accuracy: <span id="result_object_accuracy"></span></p>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

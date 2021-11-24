@@ -1,0 +1,18 @@
+b {
+    font-family: 'Raleway', sans-serif;
+}
+.button{
+    margin: auto;
+}
+body {
+    text-align: center;
+}
+.btn-info {
+    background-color: rgb(20, 150, 231);
+}
+.btn-success {
+    background-color: rgb(56, 253, 56);
+}
+#camera, #result {
+    margin: auto;
+}
